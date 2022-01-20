@@ -1,30 +1,15 @@
 <?php include 'includes/header.php';?>
-<header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i> Daniel Gebreselassie Winter 2022 SCC IT162 Portal</a></h1>
-  <nav>
-    <ul class="topnav" id="myTopnav">
-      <li><a href="/index.php" class="selected">Welcome</a></li>
-      <li><a href="/big/index.php">Big</a></li>
-      <li><a href="aia.php">AIA</a></li>
-      <li><a href="flowchart.php">Flowchart/Layout</a></li>
-      <li><a href="/fp/index.php">Final Project</a></li>
-      <li><a href="contactme.php">Contact Sara</a></li>
-      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
-    </ul>
-  </nav>
-</header>
-        
-<!-- START LEFT COL -->
-<section>
- <h2 class="pageID">Welcome</h2>
+
+<h2 class="pageID">Welcome index.php</h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
- <img src="images/IMG_0758.jpeg" class="desktop" alt="" />
- <img src="images/IMG_0887.JPG" class="phone" alt="" />
- <p>Lorem Ipsum place holder text goes here for now</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
+<section>
+ <img src="images/IMG_0887.JPG" class="desktop" alt="" />
+ <img src="images/2hawks.jpeg" class="phone" alt="" />
+ <p>Hello, I'm Daniel! I'm a lifelong student, aspiring full-stack developer and avid Sports fan</p>
+ <p>I'm a die hard sports fan and am especially passionate about the Hawks!! </p>
+ <p>I've played organized sports since I was 6 and enjoy the atmosphere of teamwork and embracing your role</p>
+ <p></p>
 </section>
 <!-- END LEFT COL -->
 
@@ -32,7 +17,7 @@
 <aside>
  <h3>Right Column</h3>
  <img src="images/IMG_0620.WEBP" class="tablet" alt="" />
- <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>lorem ipsum</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
 </aside>
 <!-- END RIGHT COL -->

@@ -1,7 +1,8 @@
+<?php include 'portal-config.php'?>
 <!DOCTYPE html>
 <html>
 <head>
-<title>IT162 Portal - Edited it and made it my own</title>
+<title><?=$title?></title>
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
@@ -10,6 +11,8 @@
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
+
+<script src="https://use.fontawesome.com/b3cd43b487.js"></script>
 </head>
 
 <body>

@@ -1,15 +1,18 @@
 <?php include 'includes/header.php';?>
 
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home display-2"></i> Daniel Gebreselassie Winter 2022 SCC IT162 Portal</a></h1>
+  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i> Daniel Gebreselassie Winter 2022 SCC IT162 Portal</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
+    <?=makeLinks($nav1)?>
+    <!--
       <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
       <li><a href="contactme.php">Contact Daniel</a></li>
+      -->
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
@@ -17,7 +20,7 @@
         
 <!-- START LEFT COL -->
 <section>
- <h2 class="pageID display-5">Welcome</h2>
+ <h2 class="pageID display-5"><?=$PageID?></h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="images/IMG_0758.jpeg" class="desktop" alt="" />
@@ -25,7 +28,7 @@
  <p>Hello I'm Daniel, a web developer!</p>
  <p>I enjoy the trial, error and growth process involved with development. </p>
  <p>I'm sports fan and a Seahawk fanatic! </p>
- <p>I've played organized sports since I was six and truly enjoy teamwork and the process of finding and embracing your role on a productive team!</p>
+ <p>I've played organized sports since I was six and through experience I've learned the value of teamwork and the process of finding and embracing your role on a productive team!</p>
 </section>
 <!-- END LEFT COL -->
 
@@ -62,4 +65,3 @@
 
 
  
-

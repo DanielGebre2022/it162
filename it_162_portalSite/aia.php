@@ -1,15 +1,19 @@
 <?php include 'includes/header.php';?>
 
+
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home display-2"></i> AIA</a></h1>
+  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>AIA</a></h1>
   <nav>
     <ul class="topnav" id="myTopnav">
+    <?=makeLinks($nav1)?>
+    <!--
       <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
       <li><a href="fp/index.php">Final Project</a></li>
       <li><a href="contactme.php">Contact Daniel</a></li>
+      -->
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
     </ul>
   </nav>
@@ -17,7 +21,7 @@
         
 <!-- START LEFT COL -->
 <section>
- <h2 class="pageID display-5"></h2>
+ <h2 class="pageID display-5"><?=$PageID?></h2>
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
  <img src="" class="desktop" alt="" />
